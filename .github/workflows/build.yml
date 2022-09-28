@@ -10,3 +10,4 @@ jobs:
           python-version: '3.10'
       - name: Install Poetry
         uses: snok/install-poetry@v1
+      - run: poetry build
