@@ -16,4 +16,4 @@ jobs:
         with:
           files: ${{ github.workspace }}/dist/*
           name: nombre
-          tag-name: estiqueta
+          tag_name: estiqueta
